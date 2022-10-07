@@ -1,4 +1,15 @@
-import React from "react";
+import { HomePage } from "./home.page";
+import { FilmsPage } from "./films.page";
+import { SingleFilmPage } from "./singlefilm.page";
+
+export { HomePage, FilmsPage, SingleFilmPage};
+
+
+
+
+
+
+/*import React from "react";
 import ReactDOM from "react-dom/client";
 import "./global.css";
 import App from "./App";
@@ -13,4 +24,4 @@ root.render(
 /*import { HomePage } from "./home.page";
 import { FilmsPage } from ".films.page";
 
-export { HomePage, FilmsPage };
+export { HomePage, FilmsPage };*/
